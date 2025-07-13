@@ -11,7 +11,7 @@ function stylize(input) {
     return capitalizedParts.join(' ');
 }
 
-fetch('https://penguinai.abby.is-a.dev/v1/models')
+fetch('https://ai.aerioncloud.com/v1/models')
     .then(response => response.json())
     .then(data => {
         const dropdown = document.getElementById('model');
@@ -44,7 +44,7 @@ function konamilol() {
     konami = true;
     console.log("you got it");
     
-    let items = ["Super threatening", "Extremely threatening", "UwUify"];
+    let items = ["Super threatening", "Extremely threatening", "UwUify", "EVIL AND INTIMIDATING HORSE MODE", "Manipulative"];
     let dropdown = document.getElementById('style');
 
     items.forEach(item => {
