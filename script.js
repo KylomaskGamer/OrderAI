@@ -33,7 +33,7 @@ fetch('https://ai.aerioncloud.com/v1/models')
     })
     .catch(error => console.error('Error fetching data:', error));
 
-let konami = false;
+let konami = true; //#### it, funny mode on
 const easterEgg = new Konami(() => konamilol());
 
 function konamilol() {
