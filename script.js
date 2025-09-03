@@ -11,7 +11,7 @@ function stylize(input) {
     return capitalizedParts.join(' ');
 }
 
-fetch('https://ai.aerioncloud.com/v1/models')
+fetch('https://penguinai.derpygamer2142.com/v1/models')
     .then(response => response.json())
     .then(data => {
         const dropdown = document.getElementById('model');
