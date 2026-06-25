@@ -5,3 +5,5 @@ also features horse.
 i activated konami early.
 its too funny
 update, it uses ollama
+
+# also you should really run this and not use the github pages version
